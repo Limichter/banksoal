@@ -1,0 +1,145 @@
+*{
+		margin: 0;
+		padding: 0;
+		font-family : “Trebuchet MS”, Helvetica, sans-serif
+}
+.hero{
+	margin-left: 100px;
+	margin-right: 40px;
+}
+ .navbar{
+	display: flex;
+	align-items: center;
+	margin: 70px auto;
+ }
+ .navbar ul{
+	flex: 1;
+	text-align: right;
+ }
+ .navbar ul li{
+	 display: inline-block;
+	 list-style: none;
+	 margin: 0 15px;
+ }
+ .navbar ul li a{
+	 text-decoration: none;
+	 color: #000;
+	 padding: 0 10px;
+	 position: relative;
+ }
+ .navbar ul li a::after{
+	 content:'';
+	 width: 0%;
+	 height: 10px;
+	 background: #99ff00;
+	 position: absolute;
+	 left: 55%;
+	 transform: translateX(-55%);
+	 top: -65px;
+	 transition: 0.5s;
+ }
+ .navbar ul li a:hover::after{
+	 width: 100%;
+ }
+ span{
+	color: #99ff00;
+ }
+ .banner{
+	display: flex;
+	margin-top: 200px;
+}
+.left h2{
+	font-size: 40px;
+}
+.left h4{
+	font-size: 10px;
+	color: #999;
+	margin: 20px 0;
+}
+
+table{
+	margin: 0 px 0px;
+	text-align: center;
+}
+table th{
+	background-color: #99ff00;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px 50px;
+	border-bottom: 1px solid #99ff00;
+}
+table td{
+	padding: 12px 50px;
+}
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: #99ff00;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=file] {
+  width: 20%;
+  background-color: #99ff00;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #99ff00;
+}
+
+
+textarea {
+  width: 50%;
+  padding: 8px 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.kotaksoal {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+
+
+
+
+
